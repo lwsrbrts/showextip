@@ -3,7 +3,7 @@
 
 	"name": "Show External IP",
 	"description": "Detects and shows your current external IP address (as seen by https://showextip.azurewebsites.net/) in a convenient popup.",
-	"version": "1.0",
+	"version": "1.0.4",
   
 	"icons": { "16": "icon-16.png",
 			   "48": "icon-48.png",
