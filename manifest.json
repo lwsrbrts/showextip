@@ -2,20 +2,20 @@
 	"manifest_version": 2,
 	"name": "Show External IP",
 	"description": "Detects and shows your current external IP address (as seen by https://showextip.azurewebsites.net/) in a convenient popup.",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"icons": {
 		"16": "icon-16.png",
 		"48": "icon-48.png",
 		"128": "icon-128.png"
 	},
 	"browser_action": {
-		"default_icon": "icon.png",
+		"default_icon": "icon-dark.svg",
 		"default_popup": "showextip.html",
 		"default_title": "Show External IP",
 		"theme_icons": [
 			{
-				"light": "icon-white.png",
-				"dark": "icon.png",
+				"light": "icon-light.svg",
+				"dark": "icon-dark.svg",
 				"size": 32
 			}
 		]
