@@ -1,0 +1,9 @@
+# Repo convention: all text files are LF. Windows checkouts were repeatedly
+# re-saving files as CRLF and polluting diffs, so normalize text to LF in
+# both the working tree and the index.
+* text=auto eol=lf
+
+# Binary assets: keep byte-stable, never normalize or convert line endings.
+*.png binary
+*.gif binary
+*.ai binary
